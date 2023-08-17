@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form>
+        <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+    <form action="{% url 'user-profile-edit' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

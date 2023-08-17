@@ -1,0 +1,13 @@
+{
+  "project_name": "django_app",
+  "project_pretty": "Django Application",
+  "use_frontend": [
+    0,
+    1
+  ],
+  "_copy_without_render": [
+    "accounts/templates/accounts/user_settings.html",
+    "accounts/templates/registration/login.html",
+    "accounts/templates/registration/user_registration.html"
+  ]
+}
